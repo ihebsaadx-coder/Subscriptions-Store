@@ -9,9 +9,9 @@ STEPS TO RUN:
 ***sendmail_from = YourGmailId@gmail.com***<br>
 ***sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"***
 5. Now, go to C:\xampp\sendmail and open sendmail.ini file.Find [sendmail] by pressing ctrl + f.Search and pass the following values
-***smtp_port=587***
-***error_logfile=error.log***
-***debug_logfile=debug.log***
-***auth_username=YourGmailId@gmail.com***
-***auth_password=Your-Gmail-Password***
+***smtp_port=587***<br>
+***error_logfile=error.log***<br>
+***debug_logfile=debug.log***<br>
+***auth_username=YourGmailId@gmail.com***<br>
+***auth_password=Your-Gmail-Password***<br>
 ***force_sender=YourGmailId@gmail.com(optional)***
