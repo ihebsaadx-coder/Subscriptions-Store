@@ -6,8 +6,11 @@ STEPS TO RUN:
 3. LOAD THE streamndcream.sql database TO PHPMYADMIN USING IMPORT IN PHPMYADMIN IN LOCAL SERVER , (you could use your own database , just change the name of your desired databse in config.php.)
 4. Go to C:\xampp\php and open the php.ini file.Find [mail function] by pressing ctrl + f , Search and pass the following values: 
 ***smtp_port=587***
+<br>
 ***sendmail_from = YourGmailId@gmail.com***
+<br>
 ***sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"***
+<br>
 5. Now, go to C:\xampp\sendmail and open sendmail.ini file.Find [sendmail] by pressing ctrl + f.Search and pass the following values
 ***smtp_port=587***
 ***error_logfile=error.log***
