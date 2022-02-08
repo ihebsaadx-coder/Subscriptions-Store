@@ -1,6 +1,6 @@
 # Subscriptions-Store
-This project contains my project work on a store management system built with PHP and MYSQL using XAMPP AND PHPMYADMIN 
-STEPS TO RUN:
+This project contains my project work on a store management system built with PHP and MYSQL using XAMPP AND PHPMYADMIN.<br>
+***STEPS TO RUN:***
 1. Install xampp and run apache and sql.
 2. Copy the folder to htdocs in xampp folder
 3. Load the streamndcream.Sql database to phpmyadmin using import in phpmyadmin in local server , (you could use your own database , just change the name of your desired databse in config.Php.)
