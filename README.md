@@ -7,7 +7,7 @@ STEPS TO RUN:
 4. Go to C:\xampp\php and open the php.ini file.Find [mail function] by pressing ctrl + f , Search and pass the following values: 
 ***smtp_port=587
 sendmail_from = YourGmailId@gmail.com
-sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t" ***
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"***
 5. Now, go to C:\xampp\sendmail and open sendmail.ini file.Find [sendmail] by pressing ctrl + f.Search and pass the following values
 ***smtp_port=587
 error_logfile=error.log
